@@ -1,0 +1,56 @@
+body
+{
+	background: white;
+	color: #2E2E2E;
+	font-family: Arial;
+	font-size: 16px;
+	text-align: center;
+}
+header
+{
+	background: url("../img/logo1.png") no-repeat 95% center;
+	background-size: 100px;
+	margin: 0 0 1em 0;
+	padding: 0.5em 0;
+	width: 100%;
+}
+header h1
+{
+	margin: 0.2em;
+	text-shadow: rgba(0,0,0,0.5) 3px 3px 2px;
+}
+header h2
+{
+	margin: 0;
+	font-weight: normal;
+	text-shadow: rgba(0,0,0,0.75) 2px 2px 5px;
+}
+nav
+{
+	background: rgba(212,129,46,0.8);
+	width: 100%;
+	
+
+}
+nav ul
+{
+	list-style: none;
+
+
+}
+nav li 
+{
+	display: inline-block;
+	
+
+}
+nav li a 
+{
+	background: #DF7401;
+	border-radius: 0.3em;
+	display: inline-block;
+	color: white;
+	padding: 0.5em 1em;
+	margin-right: 0px;
+	text-decoration: none;
+}
