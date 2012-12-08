@@ -5,18 +5,21 @@ body
 	font-family: Arial;
 	font-size: 16px;
 	text-align: center;
+
 }
 header
 {
-	background: url("../img/logo1.png") no-repeat 95% center;
-	background-size: 100px;
-	margin: 0 0 1em 0;
-	padding: 0.5em 0;
+	background: orange;
+	background: url("../img/logo1.png") no-repeat center right 40%, url("../img/background.png"), orange;
+	background-size: 70px 70px,100px 100px,100%;
+	display: inline-block;
 	width: 100%;
+	margin: 0em;
+	
 }
 header h1
 {
-	margin: 0.2em;
+	margin: 0;
 	text-shadow: rgba(0,0,0,0.5) 3px 3px 2px;
 }
 header h2
@@ -27,9 +30,11 @@ header h2
 }
 nav
 {
-	background: rgba(212,129,46,0.8);
+	background: orange;
+	display: inline-block;
 	width: 100%;
 	
+
 
 }
 nav ul
@@ -41,16 +46,61 @@ nav ul
 nav li 
 {
 	display: inline-block;
-	
-
+	margin: 1em;
 }
 nav li a 
 {
-	background: #DF7401;
-	border-radius: 0.3em;
+	background: #000;
 	display: inline-block;
 	color: white;
-	padding: 0.5em 1em;
-	margin-right: 0px;
+	
 	text-decoration: none;
+}
+ article figure img
+{
+	width: 50%;
+}
+footer
+{
+	background: orange;
+	margin-top: 1.5em;
+	padding: 1em;
+	width: 100%;
+}
+#display
+{
+	margin: 1.5em;
+}
+#display figcaption
+{
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+}
+#display img
+{
+	border-radius: 10px;
+	box-shadow: black 5px 5px 5px;
+	display: inline-block;
+	margin-left: 1em;
+	vertical-align: top;
+	width: 30%;
+}
+#pasos 
+{
+	
+	width: 100%;
+
+}
+#cera, #crema, #sellador
+{
+	display: inline-block;
+	background: rgba(212,245,46,0.6);
+	border-radius: 5px;
+	box-shadow: black 5px 5px 5px;
+	margin: 0.5em;
+	padding: 1em;
+	vertical-align: top;
+	width: 20%;
+
 }
