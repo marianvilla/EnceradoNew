@@ -1,60 +1,92 @@
 body
 {
-	background: white;
+	
 	color: #2E2E2E;
-	font-family: Arial;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 16px;
 	text-align: center;
+
 
 }
 header
 {
-	background: orange;
-	background: url("../img/logo1.png") no-repeat center right 40%, url("../img/background.png"), orange;
-	background-size: 70px 70px,100px 100px,100%;
+	background:orange;
+}
+header a
+{
+	text-decoration: none;
+}
+header figure
+{
 	display: inline-block;
-	width: 100%;
-	margin: 0em;
+	margin: 0.5em;
+	vertical-align: top;
 	
 }
-header h1
+header figure h1
 {
+
+	border-bottom: solid;
+	border-width:0.1em;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 1.4em;
 	margin: 0;
-	text-shadow: rgba(0,0,0,0.5) 3px 3px 2px;
 }
-header h2
+header figure h2
 {
+	font-size: 0.5em;
+	font-family: Arial;
 	margin: 0;
-	font-weight: normal;
-	text-shadow: rgba(0,0,0,0.75) 2px 2px 5px;
+		
+}
+header p 
+{
+	display: inline-block;
+	font-size: 1.8em;
+	font-weight: bold;
+	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
+	margin-left: 1em;
+	margin-top: 1.5em;
+	
 }
 nav
 {
-	background: orange;
-	display: inline-block;
-	width: 100%;
 	
-
-
+	background: url("../img/fondo.jpg");
+	box-shadow: rgba(40,40,10,0.5) 0px 5px 10px;
+	font-size: 1.2em;
 }
 nav ul
 {
 	list-style: none;
 
-
 }
 nav li 
 {
 	display: inline-block;
-	margin: 1em;
+	
 }
 nav li a 
 {
-	background: #000;
+	color: #203f61;
 	display: inline-block;
-	color: white;
-	
+	padding: 0.3em 1.5em;
 	text-decoration: none;
+	
+	
+
+}
+nav li a:hover
+{
+	color:black;
+	background: rgba(255,255,255,0.25);
+	border-left-color: rgba(25,25,25,0.25);
+	border-left-style: solid;
+	border-right-color: rgba(255,255,255,0.25);
+	border-right-style: solid;
+	border-width: 1px;
+
+
 }
  article figure img
 {
@@ -65,8 +97,10 @@ footer
 	background: orange;
 	margin-top: 1.5em;
 	padding: 1em;
-	width: 100%;
+	
 }
+
+
 #display
 {
 	margin: 1.5em;
