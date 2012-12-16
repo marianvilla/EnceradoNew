@@ -19,36 +19,6 @@ header
 {
 
 }
-#logotipo
-{
-	display: inline-block;
-	padding: 0;
-	margin-top: 0.8em;
-}
-#logotipo h1
-{
-	border-bottom: solid;
-	border-width:0.1em;
-	display: inline-block;
-	font-family: 'Philosopher', sans-serif;
-	font-size: 1.8em;
-	margin: 0;
-}
-#logotipo h2
-{
-	font-size: 0.6em;
-	font-family: Arial;
-	margin: 0;
-}
-header #header-texto h2
-{
-	font-size: 0.9em;
-	font-family: 'RockSaltRegular', normal;
-	padding: 0.2em;
-	margin: 0;
-	-webkit-transform:rotate(-1deg);
-	transform:rotate(-1deg);
-}
 nav
 {
 	font-size: 1.1em;
@@ -100,6 +70,17 @@ footer
 	
 }
 
+#header-texto h2
+{
+	color: orange;
+	font-size: 1em;
+	font-family: 'RockSaltRegular', normal;
+	padding: 0.5em;
+	margin: 0;
+	-webkit-transform:rotate(-1deg);
+	transform:rotate(-1deg);
+	text-shadow:1px 1px 2px black;
+}
 #header-top
 {
 	background: url("../img/fondo.jpg");
@@ -136,11 +117,35 @@ footer
 	font-size: 1.3em;
 	margin: 0;
 	padding-left: 0.8em;
+	text-shadow:1px 1px 2px black;
 	vertical-align: top;
 }
 #header-texto
 {
 	
+}
+#logotipo
+{
+	color: white;
+	display: inline-block;
+	padding: 0;
+	margin-top: 0.8em;
+	text-shadow:1px 1px 2px black;
+}
+#logotipo h1
+{
+	border-bottom: solid;
+	border-width:0.1em;
+	display: inline-block;
+	font-family: 'Philosopher', sans-serif;
+	font-size: 1.8em;
+	margin: 0;
+}
+#logotipo h2
+{
+	font-size: 0.6em;
+	font-family: Arial;
+	margin: 0;
 }
 #display
 {
