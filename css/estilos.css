@@ -1,79 +1,81 @@
+@font-face {
+    font-family: 'RockSaltRegular';
+    src: url('../fonts/RockSalt-webfont.eot');
+    src: url('../fonts/RockSalt-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/RockSalt-webfont.woff') format('woff'),
+         url('../fonts/RockSalt-webfont.ttf') format('truetype'),
+         url('../fonts/RockSalt-webfont.svg#RockSaltRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 body
 {
-	
 	color: #2E2E2E;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 16px;
 	text-align: center;
-
-
 }
 header
 {
-	background:orange;
+
 }
-header a
-{
-	text-decoration: none;
-}
-header figure
+#logotipo
 {
 	display: inline-block;
-	margin: 0.5em;
-	vertical-align: top;
-	
+	padding: 0;
+	margin-top: 0.8em;
 }
-header figure h1
+#logotipo h1
 {
-
 	border-bottom: solid;
 	border-width:0.1em;
+	display: inline-block;
 	font-family: 'Philosopher', sans-serif;
-	font-size: 1.4em;
+	font-size: 1.8em;
 	margin: 0;
 }
-header figure h2
+#logotipo h2
 {
-	font-size: 0.5em;
+	font-size: 0.6em;
 	font-family: Arial;
 	margin: 0;
-		
 }
-header p 
+header #header-texto h2
 {
-	display: inline-block;
-	font-size: 1.8em;
-	font-weight: bold;
-	text-shadow: 0px 1px 0px rgba(255, 255, 255, 0.2);
-	margin-left: 1em;
-	margin-top: 1.5em;
-	
+	font-size: 0.9em;
+	font-family: 'RockSaltRegular', normal;
+	padding: 0.2em;
+	margin: 0;
+	-webkit-transform:rotate(-1deg);
+	transform:rotate(-1deg);
 }
 nav
 {
-	
-	background: url("../img/fondo.jpg");
-	box-shadow: rgba(40,40,10,0.5) 0px 5px 10px;
-	font-size: 1.2em;
+	font-size: 1.1em;
+	margin-top: 0.2em;
+	margin-bottom: 0.4em;
+	text-align: center;
 }
-nav ul
+nav ul 
 {
 	list-style: none;
-
+	margin:0;
+	padding: 0;
 }
 nav li 
 {
 	display: inline-block;
-	
 }
-nav li a 
+nav li a
 {
-	color: #203f61;
-	display: inline-block;
-	padding: 0.3em 1.5em;
+	border-left-color: rgba(25,25,25,0.25);
+	border-left-style: solid;
+	border-right-color: rgba(255,255,255,0.25);
+	border-right-style: solid;
+	border-width: 1px;
+	color:white;
+	padding: 0em 1.5em;
 	text-decoration: none;
-	
-	
 
 }
 nav li a:hover
@@ -85,8 +87,6 @@ nav li a:hover
 	border-right-color: rgba(255,255,255,0.25);
 	border-right-style: solid;
 	border-width: 1px;
-
-
 }
  article figure img
 {
@@ -100,10 +100,53 @@ footer
 	
 }
 
+#header-top
+{
+	background: url("../img/fondo.jpg");
+	margin: 0;
+	padding-top: 0.5em;
+}
+#header-top #isotipo
+{
+	display: inline-block;
+	margin-bottom: -4em;
+	margin-right: 0.5em;
+	vertical-align: top;
+}
+#header-top #contacto
+{
+	display: inline-block;
+	margin-left: 3em;
+	text-align: right;
+	vertical-align: top;
+}
 
+#header-top #contacto img
+{
+	display: inline-block;
+	margin: 0;
+	vertical-align: top;
+	width: 50px;
+	
+}
+#header-top #contacto p 
+{
+	color: white;
+	display: inline-block;
+	font-size: 1.3em;
+	margin: 0;
+	padding-left: 0.8em;
+	vertical-align: top;
+}
+#header-texto
+{
+	
+}
 #display
 {
-	margin: 1.5em;
+	background: orange;
+	margin:0;
+	padding: 5em;
 }
 #display figcaption
 {
@@ -122,9 +165,7 @@ footer
 }
 #pasos 
 {
-	
 	width: 100%;
-
 }
 #cera, #crema, #sellador
 {
@@ -136,5 +177,4 @@ footer
 	padding: 1em;
 	vertical-align: top;
 	width: 20%;
-
 }
