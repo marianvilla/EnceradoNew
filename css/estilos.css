@@ -18,6 +18,7 @@ body
 header
 {
 
+	
 }
 nav
 {
@@ -84,6 +85,7 @@ footer
 #header-top
 {
 	background: url("../img/fondo.jpg");
+	box-shadow: 0px -2px 3px rgba(0,0,0,0.2) inset;
 	margin: 0;
 	padding-top: 0.5em;
 }
@@ -122,7 +124,9 @@ footer
 }
 #header-texto
 {
-	
+	box-shadow: 0px 2px 3px rgba(0,0,0,0.2);
+	display: inline-block;
+	width: 100%;
 }
 #logotipo
 {
@@ -149,37 +153,91 @@ footer
 }
 #display
 {
-	background: orange;
+	text-shadow:1px 1px 2px black;
+	
+	background: url("../img/fondo1.jpg") no-repeat;
+	color: white;
 	margin:0;
-	padding: 5em;
+	
+	
+	
+}
+#display img
+{
+
+display: inline-block;
+vertical-align: top;
+
+
+border-radius: 2%;
+border-color:  white;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.4);
+margin-top: 3em;
+margin-bottom: 3em;
+
+
 }
 #display figcaption
 {
 	display: inline-block;
 	vertical-align: top;
-	width: 30%;
+	margin: 1.1em;
+	padding: 0;
+	width: 35%;
 }
-#display img
+#display p
 {
-	border-radius: 10px;
-	box-shadow: black 5px 5px 5px;
-	display: inline-block;
-	margin-left: 1em;
-	vertical-align: top;
-	width: 30%;
+	font-size: 2em;
+	
+	
+	
+	
+	
 }
+#display #boton-demo
+{
+	display: inline-block;
+	color: orange;
+	background: rgba(255,255,255,0.9);
+	padding: 0.5em;
+	font-family: 'RockSaltRegular', normal;
+	text-shadow:1px 1px 2px black;
+	border-radius: 0.2em;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+#display #boton-demo:hover
+{
+	background: white;
+	box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.3);
+}
+
 #pasos 
 {
 	width: 100%;
+	background: url("../img/fondo2.jpg");
 }
 #cera, #crema, #sellador
 {
 	display: inline-block;
-	background: rgba(212,245,46,0.6);
+	background: lightgray;
 	border-radius: 5px;
 	box-shadow: black 5px 5px 5px;
 	margin: 0.5em;
 	padding: 1em;
 	vertical-align: top;
 	width: 20%;
+}
+.boton-slide
+{
+	color: white;
+	font-size: 1em;
+	font-weight: bold;
+	display: inline-block;
+	vertical-align: top;
+	margin: 0.4em 0.8em;
+	background: orange;
+	border-style: solid;
+	border-width: 0.2em;
+	border-color: darkorange;
+	padding: 0.2em 0.5em 0.2em 0.5em;
 }
