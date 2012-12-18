@@ -65,11 +65,13 @@ nav li a:hover
 }
 footer
 {
-	background: orange;
-	margin-top: 1.5em;
+	color: white;
+	background: url("../img/fondo.jpg");
 	padding: 1em;
-	
+	vertical-align: top;
+
 }
+
 
 #header-texto h2
 {
@@ -210,16 +212,52 @@ margin-bottom: 3em;
 	background: white;
 	box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.3);
 }
+#historia
+{
+	display: block;
+}
 
 #pasos 
 {
-	width: 100%;
+	padding-top: 0.5em;
+
 	background: url("../img/fondo2.jpg");
+}
+#pasos #teste
+{
+	color: white;
+	text-shadow:1px 1px 2px black;
+	background: rgba(255,255,255,0.5);
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+	margin-bottom: 0.6em;
+
+}
+#pasos #teste p
+{
+	margin: 0;
+	padding: 0;
+}
+#pasos #teste img
+{
+ 	width: 150px;
+ 	display: inline-block;
+	vertical-align: top;
+	margin: 1em;
+}
+#pasos #teste figcaption
+{
+	font-size: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
+	padding-top: 1.3em;
+	display: inline-block;
+	vertical-align: top;
+	
 }
 #cera, #crema, #sellador
 {
 	display: inline-block;
-	background: lightgray;
+	background: rgba(255,255,255,0.5);
 	border-radius: 5px;
 	box-shadow: black 5px 5px 5px;
 	margin: 0.5em;
@@ -240,4 +278,11 @@ margin-bottom: 3em;
 	border-width: 0.2em;
 	border-color: darkorange;
 	padding: 0.2em 0.5em 0.2em 0.5em;
+}
+footer #logotipo
+{
+	vertical-align: top;
+	margin: 0;
+	padding: 0;
+	padding-top: 1.5em;
 }
